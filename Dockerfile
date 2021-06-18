@@ -1,4 +1,4 @@
-FROM python:3.5-alpine
+FROM python:3.10.0b1-alpine
 
 RUN apk add --no-cache nmap nmap-scripts git
 COPY requirements.txt /
